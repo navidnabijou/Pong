@@ -17,7 +17,7 @@ import pong.TitleScreen.RightAction;
 
 /*
  * Class implementing the two players version of the game. Most of the code is contained in
- * the GamePhase superclass. The additonal code here is primarily concerned with the
+ * the GamePhase superclass. The additional code here is primarily concerned with the
  * behaviour of the paddles, and setting extra key bindings to cover the "1" and "3" keys.
  */
 public class TwoPlayers extends GamePhase {

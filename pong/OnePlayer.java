@@ -13,7 +13,7 @@ import pong.TitleScreen.RightAction;
 
 /*
  * Class implementing the one player version of the game. Most of the code is contained in
- * the GamePhase superclass. The additonal code here is primarily concerned with the
+ * the GamePhase superclass. The additional code here is primarily concerned with the
  * behaviour of the paddles.
  */
 public class OnePlayer extends GamePhase {
@@ -28,7 +28,7 @@ public class OnePlayer extends GamePhase {
 	public OnePlayer() {
 		/*
 		 *  There are no extra key bindings to set up here, so we just call the constructor from
-		 *  the superclass. resetState() is overriden, however.
+		 *  the superclass. resetState() is overridden, however.
 		 */
 		super();
 		resetState();
