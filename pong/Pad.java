@@ -2,7 +2,7 @@ package pong;
 
 import java.awt.geom.Rectangle2D;
 
-public class Pad extends Rectangle2D.Double {
+public abstract class Pad extends Rectangle2D.Double {
 	
 	/*
 	 *  The "protected" modifier means that the field will be able to be accessed by subclasses,

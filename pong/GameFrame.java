@@ -29,9 +29,9 @@ public class GameFrame extends JFrame {
 	private final int GAME_HEIGHT = 700;
 		
 	// Instantiate objects controlling each of the phases.
-	TitleScreen titleScreen = new TitleScreen();
-	OnePlayer onePlayer = new OnePlayer();
-	TwoPlayers twoPlayers = new TwoPlayers();
+	private TitleScreen titleScreen = new TitleScreen();
+	private OnePlayer onePlayer = new OnePlayer();
+	private TwoPlayers twoPlayers = new TwoPlayers();
 		
 	// In the constructor we set-up the frame and put the titleScreen inside it.
 	public GameFrame() {
